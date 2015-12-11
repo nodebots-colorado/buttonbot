@@ -1,0 +1,31 @@
+{
+  "name": "buttonbot",
+  "version": "1.0.0",
+  "description": "A tutorial on using johnny-five and websockets.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevekinney/buttonbot.git"
+  },
+  "keywords": [
+    "nodebots"
+  ],
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekinney/buttonbot/issues"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "johnny-five": "^0.9.14",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "homepage": "https://github.com/stevekinney/buttonbot"
+}

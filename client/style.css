@@ -1,0 +1,33 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  margin: 1em auto;
+  max-width: 640px;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+a {
+  color: rgb(29, 178, 212);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(19, 168, 202);
+}
